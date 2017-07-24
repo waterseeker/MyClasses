@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyClasses
+namespace MyClasses.PersonClasses
 {
-    public class Class1
+    public class Supervisor : Person
     {
+        public List<Employee> Employees { get; set; }
     }
 }
